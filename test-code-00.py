@@ -40,5 +40,6 @@ class Data_Reader:
 test_00 = Data_Reader('/Users/musubimanagement/Documents/python-projects/student-oop/','test.csv')
 print(test_00.file_to_load)
 
-print(type(test_00.read()))
-print(test_00.read().keys())
+# print(type(test_00.read()))
+# print(test_00.read().keys())
+# print(test_00.read()['MSZoning'])
